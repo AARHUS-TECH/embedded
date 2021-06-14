@@ -31,7 +31,9 @@ kan skære nogle ting fra som man så laver senere i delmålende. vores WBS ser 
 3. 
 
 ## Binary System
-
+det binere system er det system som computere operere i, med det menes der at computere foretager beregninger og behandler data bestående af 1 og 0.
+En byte består af 8 bits som gør at en byte kan indeholde 256 forskellige værdiger, 
+bits kan f.eks. indeholde data til repræsentation af et bogstav i et tekstdokument. 
 
 ## Convert T
 
