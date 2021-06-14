@@ -12,13 +12,14 @@ Styringen i hønsehuset indebære:
 - en form for et signal, når lågen lukker til at lokke hønsene ind i huset igen. 
 - en counter til at informere brugeren om hvor mange hønse der er gået igennem lågen. 
 
-## problem stillinger
+## Problem stillinger
 Da vi begyndte og tænke på hvilke sensorer vi skulle have med i vores løsning fik vi en masse spørgsmål som blandt andet. 
-- 
+
 
 ## Proff of concept
 Til at starte med vil vi gerne lave et "Proof of concept", et proof og concept er at man laver en ting i opgaven som i dette tilfælde
 at
+
 ## WBS
 I starten var vi lidt overvældet at opgaven, da vi aldrig rigtigt havde arbejdet med teknologierne før, derfor lavede vi en (Work Breakdown Structure)
 også Kaldet en WBS. Dette går ud på at vi bryder hovedopgaven op i flere delmål, dette gør opgaven nemmere at overskue, på den måde at man
@@ -28,3 +29,9 @@ kan skære nogle ting fra som man så laver senere i delmålende. vores WBS ser 
     - løsningsforslag
 2. Få lavet en arduino der blinker for at få en fornemmelse af det
 3. 
+
+## Binary System
+
+
+## Convert T
+
