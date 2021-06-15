@@ -12,17 +12,18 @@ Styringen i hønsehuset indebære:
 - en form for et signal, når lågen lukker til at lokke hønsene ind i huset igen. 
 - en counter til at informere brugeren om hvor mange hønse der er gået igennem lågen. 
 
-## Problemstilling
-En problemstilling er med til at give et overblik over de usikkerheder vi har med projektet. Den er også med til at afgrænse projektet.	
+## Spørgsmål Til Opgaven
+- Hvor hurtigt skal de blæse for at vores vindue åbner?
+- Indstillinger af vinduer (fuld, medium, lav)?
+- Startpunkt for vinduer, starter de altid som lukket?
+- Hvor meget skal vinduerne kunne åbnes for at de ikke går i stykker?
+- Hvor lang tid skal vinduerne være åben?
+- Hvor fugtigt skal drivhuset være?
+- Skal hønse døren køre på tid eller lys?
+- Hvad sker der hvis en høne bliver lukket udenfor?
 
-Da vi begyndte projektet, havde vi nogle spørgsmål. Siden den gang har vi fået afklaret en del ting, men der er stadig nogle ting der er lidt uklare omkring. 
 
-Vi skal finde ud af hvor meget af opstillingen vi kan lave og hvor meget skal vi simulere. Ud fra hvor meget der skal simuleres, skal vi have fundet ud af hvor sensorerne skal placeres i opstillingen 
-
-Vi ved ikke helt hvilke sensorer har vi adgang til. Ud fra det skal vi have lavet en indkøbsliste til de ting vi mangler.
-
-
-## Proff of concept
+## Proof of concept
 Til at starte med vil vi gerne lave et "Proof of concept", et "Proof of concept" er at man laver en lille version af opgaven først, for at se om det egentlig er muligt og så også for at finde evt. oversete problemstillinger. 
 I vores proff of concept vil vi: 
 - simulere moterne med en blinkende LED, 
