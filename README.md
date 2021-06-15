@@ -37,3 +37,8 @@ bits kan f.eks. indeholde data til repræsentation af et bogstav i et tekstdokum
 
 ## Convert T
 Convert t initialisere en temperatur læsning og den data den læser er lageret i en 2 byte hurtig intern hukommelse (Scratchpad). Efter den data er lageret går sensoren tilbage til et low power mode inden for 10 mikrosekunder. Efter det skal der laves en strong pullup i den tid sensoren skal læse temperatur, elles virker sensoren ikke. Strong pullup er når sensoren får mere strøm så den kan få præcise målinger
+
+
+## Sensorer / udstyr
+
+
