@@ -15,10 +15,12 @@ Styringen i hønsehuset indebære:
 ## Problem stillinger
 Da vi begyndte og tænke på hvilke sensorer vi skulle have med i vores løsning fik vi en masse spørgsmål som blandt andet. 
 
-
 ## Proff of concept
-Til at starte med vil vi gerne lave et "Proof of concept", et proof og concept er at man laver en ting i opgaven som i dette tilfælde
-at
+Til at starte med vil vi gerne lave et "Proof of concept", et "Proof of concept" er at man laver en lille version af opgaven først, for at se om det egentlig er muligt og så også for at finde evt. oversete problemstillinger. 
+I vores proff of concept vil vi: 
+- simulere moterne med en blinkende LED, 
+- Vandpumperne vil flytte vand fra en kop til en anden kop.
+- Håndteringen af vind vil vi bruge en blæser
 
 ## WBS
 I starten var vi lidt overvældet at opgaven, da vi aldrig rigtigt havde arbejdet med teknologierne før, derfor lavede vi en (Work Breakdown Structure)
@@ -37,7 +39,6 @@ bits kan f.eks. indeholde data til repræsentation af et bogstav i et tekstdokum
 
 ## Convert T
 Convert t initialisere en temperatur læsning og den data den læser er lageret i en 2 byte hurtig intern hukommelse (Scratchpad). Efter den data er lageret går sensoren tilbage til et low power mode inden for 10 mikrosekunder. Efter det skal der laves en strong pullup i den tid sensoren skal læse temperatur, elles virker sensoren ikke. Strong pullup er når sensoren får mere strøm så den kan få præcise målinger
-
 
 ## Sensorer / udstyr
 
