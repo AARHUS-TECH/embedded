@@ -13,14 +13,14 @@ Styringen i hønsehuset indebære:
 - en counter til at informere brugeren om hvor mange hønse der er gået igennem lågen. 
 
 ## spørgsmål til opgaven
--Hvor hurtigt skal de blæse for at vores vindue åbner?
--Indstillinger af vinduer (fuld, medium, lav)?
--Startpunkt for vinduer, starter de altid som lukket?
--Hvor meget skal vinduerne kunne åbnes for at de ikke går i stykker?
--Hvor lang tid skal vinduerne være åben?
--Hvor fugtigt skal drivhuset være?
--Skal hønse døren køre på tid eller lys?
--Hvad sker der hvis en høne bliver lukket udenfor?
+- Hvor hurtigt skal de blæse for at vores vindue åbner?
+- Indstillinger af vinduer (fuld, medium, lav)?
+- Startpunkt for vinduer, starter de altid som lukket?
+- Hvor meget skal vinduerne kunne åbnes for at de ikke går i stykker?
+- Hvor lang tid skal vinduerne være åben?
+- Hvor fugtigt skal drivhuset være?
+- Skal hønse døren køre på tid eller lys?
+- Hvad sker der hvis en høne bliver lukket udenfor?
 
 
 
