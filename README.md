@@ -35,7 +35,5 @@ det binere system er det system som computere operere i, med det menes der at co
 En byte består af 8 bits som gør at en byte kan indeholde 256 forskellige værdiger, 
 bits kan f.eks. indeholde data til repræsentation af et bogstav i et tekstdokument. 
 
-Når man sender date til en enhed via protokoller, vil det blive opdelt alt efter hvor mange 
-
 ## Convert T
-
+Convert t initialisere en temperatur læsning og den data den læser er lageret i en 2 byte hurtig intern hukommelse (Scratchpad). Efter den data er lageret går sensoren tilbage til et low power mode inden for 10 mikrosekunder. Efter det skal der laves en strong pullup i den tid sensoren skal læse temperatur, elles virker sensoren ikke. Strong pullup er når sensoren får mere strøm så den kan få præcise målinger
