@@ -12,8 +12,15 @@ Styringen i hønsehuset indebære:
 - en form for et signal, når lågen lukker til at lokke hønsene ind i huset igen. 
 - en counter til at informere brugeren om hvor mange hønse der er gået igennem lågen. 
 
-## Problem stillinger
-Da vi begyndte og tænke på hvilke sensorer vi skulle have med i vores løsning fik vi en masse spørgsmål som blandt andet. 
+## Problemstilling
+En problemstilling er med til at give et overblik over de usikkerheder vi har med projektet. Den er også med til at afgrænse projektet.	
+
+Da vi begyndte projektet, havde vi nogle spørgsmål. Siden den gang har vi fået afklaret en del ting, men der er stadig nogle ting der er lidt uklare omkring. 
+
+Vi skal finde ud af hvor meget af opstillingen vi kan lave og hvor meget skal vi simulere. Ud fra hvor meget der skal simuleres, skal vi have fundet ud af hvor sensorerne skal placeres i opstillingen 
+
+Vi ved ikke helt hvilke sensorer har vi adgang til. Ud fra det skal vi have lavet en indkøbsliste til de ting vi mangler.
+
 
 ## Proff of concept
 Til at starte med vil vi gerne lave et "Proof of concept", et "Proof of concept" er at man laver en lille version af opgaven først, for at se om det egentlig er muligt og så også for at finde evt. oversete problemstillinger. 
