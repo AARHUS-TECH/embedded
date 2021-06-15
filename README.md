@@ -35,5 +35,7 @@ det binere system er det system som computere operere i, med det menes der at co
 En byte består af 8 bits som gør at en byte kan indeholde 256 forskellige værdiger, 
 bits kan f.eks. indeholde data til repræsentation af et bogstav i et tekstdokument. 
 
+Når man sender date til en enhed via protokoller, vil det blive opdelt alt efter hvor mange 
+
 ## Convert T
 
