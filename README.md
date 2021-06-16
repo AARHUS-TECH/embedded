@@ -80,3 +80,19 @@ Convert t initialisere en temperatur læsning og den data den læser er lageret 
 - signal til at signalere at nu lukker lågen snart 
 1 lyssensor 
 - til at indstille til lågen i hønsehuset 
+
+## Cloud
+Formålet med at involvere en cloud er at vi vil bruge den til at opbevare data fra vores arduinoer,
+Vores clound skal opbevare data, sende data til vores interface og komunikere med vores arduinoer med kommandoer som vores cloud får fra vores interface.
+Til vores cloudløsning vil vi gerne bruge Azure IoT Hub, (den gratis version). 
+I Azure vil vi kunne connecte vores sensore og kommunikere med dem også
+
+## Kredsløb
+I opbygningen af vores projekt vil vi gerne lave 4 forskellige kredsløb. vi vil gerne have 3 kredsløb i drivhuset og et i hønsehuset.
+drivhuset:
+- hvert af de 2 bede i drivhuset skal køre på et seperat kredsløb, Det betyder at der vil være 1 kredsløb til hver fugtighedssensor som måler jordens fugtighed
+- så vil Temperatursensoren, Vindmålern, de 2 Motore, og fugtighedssensorne køre på et andet kredsløb. 
+- Hønsegården vil køre på en 3 kredsløb.
+ 
+
+
