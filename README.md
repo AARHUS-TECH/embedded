@@ -22,7 +22,6 @@ Styringen i hønsehuset indebære:
 - Skal hønse døren køre på tid eller lys?
 - Hvad sker der hvis en høne bliver lukket udenfor?
 
-
 ## Proof of concept
 Til at starte med vil vi gerne lave et "Proof of concept", et "Proof of concept" er at man laver en lille version af opgaven først, for at se om det egentlig er muligt og så også for at finde evt. oversete problemstillinger. 
 I vores proff of concept vil vi: 
@@ -92,7 +91,7 @@ I opbygningen af vores projekt vil vi gerne lave 4 forskellige kredsløb. vi vil
 drivhuset:
 - hvert af de 2 bede i drivhuset skal køre på et seperat kredsløb, Det betyder at der vil være 1 kredsløb til hver fugtighedssensor som måler jordens fugtighed
 - så vil Temperatursensoren, Vindmålern, de 2 Motore, og fugtighedssensorne køre på et andet kredsløb. 
-- Hønsegården vil køre på en 3 kredsløb.
+- Hønsegården vil køre på en 3 kredsløb. for at arduinoerne også bedre skal kunne håndtere kredsløbende
  
 
 
