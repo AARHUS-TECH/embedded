@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ArduinoWebinterface'`, () => {
+  it(`should have as title 'WebInterface'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ArduinoWebinterface');
+    expect(app.title).toEqual('WebInterface');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ArduinoWebinterface app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('WebInterface app is running!');
   });
 });
