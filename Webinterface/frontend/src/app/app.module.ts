@@ -9,6 +9,13 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HonsehusComponent } from './honsehus/honsehus.component';
 import { DrivhusComponent } from './drivhus/drivhus.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -17,12 +24,19 @@ import { DrivhusComponent } from './drivhus/drivhus.component';
     LandingpageComponent,
     DashboardComponent,
     HonsehusComponent,
-    DrivhusComponent
+    DrivhusComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
