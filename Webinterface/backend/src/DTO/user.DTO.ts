@@ -13,9 +13,3 @@ export class UserDTO {
 }
 
 export const CollectionSchema = SchemaFactory.createForClass(UserDTO);
-
-
-// export class hoensehusDTO {
-//     tid: String;
-//     Light: String;
-// }
