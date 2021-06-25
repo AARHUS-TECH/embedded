@@ -15,9 +15,9 @@ export class AuthService {
         private userService: UserService
     ) {}
 
-    async validateUser(id: string, username: string, password: string) {
+    async validateUser(username: string, password: string) {
     
-        const user = await this.userService.findUser(id);
+        const user = await this.userService.findUser(username);
 
         if (user && user.password === password) {
             const { password, username, ...rest } = user;
@@ -27,20 +27,3 @@ export class AuthService {
         return null;
     }
 }
-
-    // public async login(id: string) {
-    //     return await this.userService.GetOneUser(id)
-    // }
-
-
-    // generateJWT(): Observable<string> {
-    //     return from(this.jwtService.signAsync({Usermodel}))
-    // }
-
-    // hashPassword(password: string): Observable<string> {
-    //     return from<string>(bcrypt.hash(password, 12))
-    // }
-
-    // comparePasswords(newPassword: string, passwortHash: string): Observable<any> {
-    //     return from(bcrypt.compare(newPassword, passwortHash));
-    // }
