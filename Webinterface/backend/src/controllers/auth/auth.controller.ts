@@ -14,6 +14,6 @@ export class AuthController {
     @UseGuards(LocalAuthGuard) // aktivere passport
     @Post('login')
     public async login(@Request() req) {
-        return req.user
+        return req.user;
     }
 }

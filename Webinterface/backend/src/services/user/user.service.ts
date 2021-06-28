@@ -39,9 +39,10 @@ export class UserService {
     
     public async findUser(id: string): Promise<UserDocument> {
         let user;
+        console.log(id);
         
         try {
-            user = await this.Usermodel.findById(id).exec();
+            user = await this.Usermodel.findOne({username:id}).exec();
         } catch (error) {
             // throw new NotFoundException("could not find user");
             console.log(error);
