@@ -12,11 +12,21 @@ export class AuthController {
         // private authService: AuthService
     ) {}
 
-    @UseGuards(LocalAuthGuard) // aktivere passport
+    // @UseGuards(LocalAuthGuard) // aktivere passport
+    // @Post('login',)
+    // public async login(@Request() req) {
+    //     console.log(req.params.id);
+    //     return req.user;
+    // }
+
+    @UseGuards(LocalAuthGuard)
     @Post('login')
     public async login(@Request() req) {
-        // return {msg: 'logged in!'}
-        return req._body;
+
+        const userid = req.body._id;
+        console.log(userid);
+        
+        return req.user;
     }
     
     @UseGuards(AuthenticatedGuard)
