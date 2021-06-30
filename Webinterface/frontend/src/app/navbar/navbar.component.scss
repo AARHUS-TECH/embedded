@@ -15,3 +15,30 @@
   top: 0;
   z-index: 1;
 }
+
+.nav-links {
+  display: flex;
+  // flex-direction: row;
+  // background-color: red;
+  // align-items: flex-end;
+  justify-content: space-between;
+}
+
+.dummy {
+  flex: 1 1 auto;
+}
+
+.mat-list-item {
+  color: white;
+  padding-right: 2%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  float: right;
+}
+
+@media(max-width:100000px) {
+  .sidenav {
+    display: none;
+  }
+}
