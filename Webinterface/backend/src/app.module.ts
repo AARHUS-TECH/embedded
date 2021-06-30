@@ -1,23 +1,48 @@
 import { Module } from '@nestjs/common';
+import { MongooseModule } from '@nestjs/mongoose';
+import { ConfigModule } from '@nestjs/config';
+
 import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { AuthController } from './controllers/auth/auth.controller';
 import { DrivhusController } from './controllers/drivhus/drivhus.controller';
-import { HoensehusController } from './controllers/hoensehus/hoensehus.controller';
+import { UserController } from './controllers/User/user.controller';
 import { DashboardController } from './controllers/dashboard/dashboard.controller';
-import { MongooseModule } from '@nestjs/mongoose';
+
+import { AppService } from './app.service';
+import { DashboardService } from './services/dashboard/dashboard.service';
+import { DrivhusService } from './services/drivhus/drivhus.service';
+import { UserService } from './services/user/user.service';
+import { AuthService } from './services/auth/auth.service';
+
+import { Usermodel } from './models/user.model';
+import { PassportModule } from '@nestjs/passport';
+import { LocalStrategy } from './services/helpers/local.strategy';
+import { SessionSerializer } from './services/helpers/session.serializer';
 
 @Module({
-  imports: [MongooseModule.forRoot('mongodb+srv://User:Datait2021@Database.hsfog.mongodb.net/Cluser0?retryWrites=true&w=majority')],
+  imports: [
+    MongooseModule.forRoot('mongodb+srv://ProjektStyring:SKPDataIT2021@cluster0.hsfog.mongodb.net/Cluster0?retryWrites=true&w=majority'),
+    MongooseModule.forFeature([{ name: 'UserSchema', schema: Usermodel }]),
+    ConfigModule.forRoot(),
+    PassportModule.register({ session: true }),
+    PassportModule
+   
+  ],
   controllers: [
-    AppController, 
+    AppController,
     AuthController,
     DrivhusController,
-    HoensehusController,
+    UserController,
     DashboardController
   ],
   providers: [
-    AppService
+    AppService,
+    DashboardService,
+    DrivhusService,
+    UserService,
+    AuthService,
+    LocalStrategy,
+    SessionSerializer
   ],
 })
-export class AppModule {}
+export class AppModule { }

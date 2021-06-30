@@ -6,10 +6,13 @@ export type UserDocument = UserDTO & Document;
 @Schema()
 export class UserDTO {
     @Prop()
-    UserName: string
+    username: string
 
     @Prop()
     email: string;
+
+    @Prop()
+    password: string;
 }
 
 export const CollectionSchema = SchemaFactory.createForClass(UserDTO);
